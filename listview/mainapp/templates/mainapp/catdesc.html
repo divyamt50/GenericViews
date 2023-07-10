@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ cat.name }}</title>
+</head>
+<body>
+    <h1>{{ cat.name }}</h1>
+    <p>{{ cat.description }}</p>
+    <br>
+    <a href="{% url 'cat_list' %}">Go back to Cat list</a>
+</body>
+</html>
